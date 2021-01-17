@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162FC56CCAA8A0868F5D83E7 /* Pods_careChat_careChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4545043AED2D94DEBCB1EB16 /* Pods_careChat_careChatUITests.framework */; };
+		5FF55E859304BD7538367798 /* Pods_careChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2C916E4CEDC4B058153DF0 /* Pods_careChat.framework */; };
 		706C90F825B4EF0400930E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C90F725B4EF0400930E01 /* AppDelegate.swift */; };
 		706C90FA25B4EF0400930E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C90F925B4EF0400930E01 /* SceneDelegate.swift */; };
 		706C90FC25B4EF0400930E01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C90FB25B4EF0400930E01 /* ViewController.swift */; };
@@ -15,6 +17,11 @@
 		706C910425B4EF0900930E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706C910225B4EF0900930E01 /* LaunchScreen.storyboard */; };
 		706C910F25B4EF0A00930E01 /* careChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C910E25B4EF0A00930E01 /* careChatTests.swift */; };
 		706C911A25B4EF0A00930E01 /* careChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C911925B4EF0A00930E01 /* careChatUITests.swift */; };
+		706C914A25B4F11A00930E01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 706C914925B4F11A00930E01 /* GoogleService-Info.plist */; };
+		706C915025B4F22A00930E01 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 706C914F25B4F22A00930E01 /* IQKeyboardManagerSwift */; };
+		706C915525B4F2A500930E01 /* Emotion.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 706C915425B4F2A500930E01 /* Emotion.mlmodel */; };
+		706C915B25B4F30300930E01 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C915A25B4F30300930E01 /* Message.swift */; };
+		9F948AB2722B96C7D92C4039 /* Pods_careChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A867AB1244EC334B39B4204A /* Pods_careChatTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		364DBD35BB710B2917F59B7E /* Pods-careChat-careChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careChat-careChatUITests.release.xcconfig"; path = "Target Support Files/Pods-careChat-careChatUITests/Pods-careChat-careChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4545043AED2D94DEBCB1EB16 /* Pods_careChat_careChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_careChat_careChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2C916E4CEDC4B058153DF0 /* Pods_careChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_careChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		519A1A8A84D89DDE91BDC50F /* Pods-careChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careChatTests.debug.xcconfig"; path = "Target Support Files/Pods-careChatTests/Pods-careChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D3421F57C81F96641D31CFB /* Pods-careChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careChatTests.release.xcconfig"; path = "Target Support Files/Pods-careChatTests/Pods-careChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		706C90F425B4EF0400930E01 /* careChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = careChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706C90F725B4EF0400930E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		706C90F925B4EF0400930E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,13 @@
 		706C911525B4EF0A00930E01 /* careChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = careChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		706C911925B4EF0A00930E01 /* careChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = careChatUITests.swift; sourceTree = "<group>"; };
 		706C911B25B4EF0A00930E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706C914925B4F11A00930E01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		706C915425B4F2A500930E01 /* Emotion.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Emotion.mlmodel; sourceTree = "<group>"; };
+		706C915A25B4F30300930E01 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A867AB1244EC334B39B4204A /* Pods_careChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_careChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8F76A8B5D56C0567A0F8B1 /* Pods-careChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careChat.debug.xcconfig"; path = "Target Support Files/Pods-careChat/Pods-careChat.debug.xcconfig"; sourceTree = "<group>"; };
+		C8E0C076D439777BE347715F /* Pods-careChat-careChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careChat-careChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-careChat-careChatUITests/Pods-careChat-careChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEFED093D30E1C155B318B11 /* Pods-careChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careChat.release.xcconfig"; path = "Target Support Files/Pods-careChat/Pods-careChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF55E859304BD7538367798 /* Pods_careChat.framework in Frameworks */,
+				706C915025B4F22A00930E01 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F948AB2722B96C7D92C4039 /* Pods_careChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162FC56CCAA8A0868F5D83E7 /* Pods_careChat_careChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				706C910D25B4EF0A00930E01 /* careChatTests */,
 				706C911825B4EF0A00930E01 /* careChatUITests */,
 				706C90F525B4EF0400930E01 /* Products */,
+				95044D4CB507A54D8526EE95 /* Pods */,
+				82D23B718D1723CE97106DBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +126,14 @@
 			children = (
 				706C90F725B4EF0400930E01 /* AppDelegate.swift */,
 				706C90F925B4EF0400930E01 /* SceneDelegate.swift */,
+				706C915925B4F2E600930E01 /* Model */,
 				706C90FB25B4EF0400930E01 /* ViewController.swift */,
 				706C90FD25B4EF0400930E01 /* Main.storyboard */,
 				706C910025B4EF0900930E01 /* Assets.xcassets */,
 				706C910225B4EF0900930E01 /* LaunchScreen.storyboard */,
 				706C910525B4EF0900930E01 /* Info.plist */,
+				706C914925B4F11A00930E01 /* GoogleService-Info.plist */,
+				706C915425B4F2A500930E01 /* Emotion.mlmodel */,
 			);
 			path = careChat;
 			sourceTree = "<group>";
@@ -128,6 +156,37 @@
 			path = careChatUITests;
 			sourceTree = "<group>";
 		};
+		706C915925B4F2E600930E01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				706C915A25B4F30300930E01 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82D23B718D1723CE97106DBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D2C916E4CEDC4B058153DF0 /* Pods_careChat.framework */,
+				4545043AED2D94DEBCB1EB16 /* Pods_careChat_careChatUITests.framework */,
+				A867AB1244EC334B39B4204A /* Pods_careChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95044D4CB507A54D8526EE95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F76A8B5D56C0567A0F8B1 /* Pods-careChat.debug.xcconfig */,
+				DEFED093D30E1C155B318B11 /* Pods-careChat.release.xcconfig */,
+				C8E0C076D439777BE347715F /* Pods-careChat-careChatUITests.debug.xcconfig */,
+				364DBD35BB710B2917F59B7E /* Pods-careChat-careChatUITests.release.xcconfig */,
+				519A1A8A84D89DDE91BDC50F /* Pods-careChatTests.debug.xcconfig */,
+				6D3421F57C81F96641D31CFB /* Pods-careChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,15 +194,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 706C911E25B4EF0A00930E01 /* Build configuration list for PBXNativeTarget "careChat" */;
 			buildPhases = (
+				D503E4973987A7EDEB0E72E9 /* [CP] Check Pods Manifest.lock */,
 				706C90F025B4EF0400930E01 /* Sources */,
 				706C90F125B4EF0400930E01 /* Frameworks */,
 				706C90F225B4EF0400930E01 /* Resources */,
+				4E11B31AF041F539101A768F /* [CP] Embed Pods Frameworks */,
+				0828EE8F17DE5F0C7A7BDE96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = careChat;
+			packageProductDependencies = (
+				706C914F25B4F22A00930E01 /* IQKeyboardManagerSwift */,
+			);
 			productName = careChat;
 			productReference = 706C90F425B4EF0400930E01 /* careChat.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 706C912125B4EF0A00930E01 /* Build configuration list for PBXNativeTarget "careChatTests" */;
 			buildPhases = (
+				40069EC6CAD948F6A6F96A88 /* [CP] Check Pods Manifest.lock */,
 				706C910625B4EF0A00930E01 /* Sources */,
 				706C910725B4EF0A00930E01 /* Frameworks */,
 				706C910825B4EF0A00930E01 /* Resources */,
@@ -170,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 706C912425B4EF0A00930E01 /* Build configuration list for PBXNativeTarget "careChatUITests" */;
 			buildPhases = (
+				9C6D70ED1204406A1C49EAAE /* [CP] Check Pods Manifest.lock */,
 				706C911125B4EF0A00930E01 /* Sources */,
 				706C911225B4EF0A00930E01 /* Frameworks */,
 				706C911325B4EF0A00930E01 /* Resources */,
+				B4DF9844DB5E030D6439A358 /* [CP] Embed Pods Frameworks */,
+				3D1A0F9E58816F8948950D6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +284,9 @@
 				Base,
 			);
 			mainGroup = 706C90EB25B4EF0300930E01;
+			packageReferences = (
+				706C914E25B4F22A00930E01 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 706C90F525B4EF0400930E01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				706C910425B4EF0900930E01 /* LaunchScreen.storyboard in Resources */,
+				706C914A25B4F11A00930E01 /* GoogleService-Info.plist in Resources */,
 				706C910125B4EF0900930E01 /* Assets.xcassets in Resources */,
 				706C90FF25B4EF0400930E01 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +326,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0828EE8F17DE5F0C7A7BDE96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-careChat/Pods-careChat-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-careChat/Pods-careChat-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-careChat/Pods-careChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D1A0F9E58816F8948950D6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-careChat-careChatUITests/Pods-careChat-careChatUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-careChat-careChatUITests/Pods-careChat-careChatUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-careChat-careChatUITests/Pods-careChat-careChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40069EC6CAD948F6A6F96A88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-careChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E11B31AF041F539101A768F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-careChat/Pods-careChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-careChat/Pods-careChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-careChat/Pods-careChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6D70ED1204406A1C49EAAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-careChat-careChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4DF9844DB5E030D6439A358 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-careChat-careChatUITests/Pods-careChat-careChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-careChat-careChatUITests/Pods-careChat-careChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-careChat-careChatUITests/Pods-careChat-careChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D503E4973987A7EDEB0E72E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-careChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		706C90F025B4EF0400930E01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +470,8 @@
 			files = (
 				706C90FC25B4EF0400930E01 /* ViewController.swift in Sources */,
 				706C90F825B4EF0400930E01 /* AppDelegate.swift in Sources */,
+				706C915B25B4F30300930E01 /* Message.swift in Sources */,
+				706C915525B4F2A500930E01 /* Emotion.mlmodel in Sources */,
 				706C90FA25B4EF0400930E01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +645,7 @@
 		};
 		706C911F25B4EF0A00930E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8F76A8B5D56C0567A0F8B1 /* Pods-careChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +665,7 @@
 		};
 		706C912025B4EF0A00930E01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFED093D30E1C155B318B11 /* Pods-careChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +685,7 @@
 		};
 		706C912225B4EF0A00930E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519A1A8A84D89DDE91BDC50F /* Pods-careChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +708,7 @@
 		};
 		706C912325B4EF0A00930E01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3421F57C81F96641D31CFB /* Pods-careChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +731,7 @@
 		};
 		706C912525B4EF0A00930E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E0C076D439777BE347715F /* Pods-careChat-careChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +752,7 @@
 		};
 		706C912625B4EF0A00930E01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364DBD35BB710B2917F59B7E /* Pods-careChat-careChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +811,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		706C914E25B4F22A00930E01 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		706C914F25B4F22A00930E01 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 706C914E25B4F22A00930E01 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 706C90EC25B4EF0300930E01 /* Project object */;
 }

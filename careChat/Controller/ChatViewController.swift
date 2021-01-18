@@ -193,7 +193,7 @@ extension ChatViewController: UITableViewDataSource {
             if message.profane == true{
                 cell.messageBubble.backgroundColor = UIColor.red
             } else {
-                cell.messageBubble.backgroundColor = UIColor.systemBlue
+                cell.messageBubble.backgroundColor = UIColor(named: "AppDarkBlue")
             }
             return cell
             
@@ -205,7 +205,7 @@ extension ChatViewController: UITableViewDataSource {
             if message.profane == true{
                 cell.messageBubble.backgroundColor = UIColor.red
             } else {
-                cell.messageBubble.backgroundColor = UIColor.systemGray
+                cell.messageBubble.backgroundColor = UIColor(named: "App Blue")
             }
             return cell
         }

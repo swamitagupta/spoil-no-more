@@ -11,7 +11,6 @@
 		5FF55E859304BD7538367798 /* Pods_careChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2C916E4CEDC4B058153DF0 /* Pods_careChat.framework */; };
 		706C90F825B4EF0400930E01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C90F725B4EF0400930E01 /* AppDelegate.swift */; };
 		706C90FA25B4EF0400930E01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C90F925B4EF0400930E01 /* SceneDelegate.swift */; };
-		706C90FC25B4EF0400930E01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C90FB25B4EF0400930E01 /* ViewController.swift */; };
 		706C90FF25B4EF0400930E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706C90FD25B4EF0400930E01 /* Main.storyboard */; };
 		706C910125B4EF0900930E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706C910025B4EF0900930E01 /* Assets.xcassets */; };
 		706C910425B4EF0900930E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706C910225B4EF0900930E01 /* LaunchScreen.storyboard */; };
@@ -21,6 +20,25 @@
 		706C915025B4F22A00930E01 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 706C914F25B4F22A00930E01 /* IQKeyboardManagerSwift */; };
 		706C915525B4F2A500930E01 /* Emotion.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 706C915425B4F2A500930E01 /* Emotion.mlmodel */; };
 		706C915B25B4F30300930E01 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C915A25B4F30300930E01 /* Message.swift */; };
+		706C916025B4F40400930E01 /* ProfanityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C915F25B4F40400930E01 /* ProfanityModel.swift */; };
+		706C916525B4F42300930E01 /* ProfanityRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C916425B4F42300930E01 /* ProfanityRequest.swift */; };
+		706C916A25B4F45000930E01 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C916925B4F44F00930E01 /* User.swift */; };
+		706C916F25B4F46C00930E01 /* chatlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C916E25B4F46C00930E01 /* chatlist.swift */; };
+		706C917425B4F48F00930E01 /* CheckEmotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C917325B4F48F00930E01 /* CheckEmotion.swift */; };
+		706C917925B4F4B800930E01 /* EmotionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C917825B4F4B800930E01 /* EmotionColor.swift */; };
+		706C917E25B4F4DA00930E01 /* EmotionEmoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C917D25B4F4DA00930E01 /* EmotionEmoji.swift */; };
+		706C918625B4F56F00930E01 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C918525B4F56F00930E01 /* InitialViewController.swift */; };
+		706C918B25B4F5BD00930E01 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C918A25B4F5BD00930E01 /* LogInViewController.swift */; };
+		706C919025B4F5DF00930E01 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C918F25B4F5DF00930E01 /* SignUpViewController.swift */; };
+		706C919525B4F60600930E01 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C919425B4F60600930E01 /* TabBarViewController.swift */; };
+		706C919A25B4F62B00930E01 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C919925B4F62B00930E01 /* ChatListViewController.swift */; };
+		706C919F25B4F66000930E01 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C919E25B4F66000930E01 /* ChatViewController.swift */; };
+		706C91A625B4F6BD00930E01 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C91A425B4F6BD00930E01 /* MessageTableViewCell.swift */; };
+		706C91A725B4F6BD00930E01 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706C91A525B4F6BD00930E01 /* MessageTableViewCell.xib */; };
+		706C91AD25B4F6ED00930E01 /* RecievedMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C91AB25B4F6ED00930E01 /* RecievedMessageTableViewCell.swift */; };
+		706C91AE25B4F6ED00930E01 /* RecievedMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706C91AC25B4F6ED00930E01 /* RecievedMessageTableViewCell.xib */; };
+		706C91B325B4F73400930E01 /* ProfanityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C91B225B4F73400930E01 /* ProfanityViewController.swift */; };
+		706C91B825B4F75E00930E01 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C91B725B4F75E00930E01 /* ProfileViewController.swift */; };
 		9F948AB2722B96C7D92C4039 /* Pods_careChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A867AB1244EC334B39B4204A /* Pods_careChatTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +68,6 @@
 		706C90F425B4EF0400930E01 /* careChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = careChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706C90F725B4EF0400930E01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		706C90F925B4EF0400930E01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		706C90FB25B4EF0400930E01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		706C90FE25B4EF0400930E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		706C910025B4EF0900930E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		706C910325B4EF0900930E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +81,25 @@
 		706C914925B4F11A00930E01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		706C915425B4F2A500930E01 /* Emotion.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Emotion.mlmodel; sourceTree = "<group>"; };
 		706C915A25B4F30300930E01 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		706C915F25B4F40400930E01 /* ProfanityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfanityModel.swift; sourceTree = "<group>"; };
+		706C916425B4F42300930E01 /* ProfanityRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfanityRequest.swift; sourceTree = "<group>"; };
+		706C916925B4F44F00930E01 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		706C916E25B4F46C00930E01 /* chatlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatlist.swift; sourceTree = "<group>"; };
+		706C917325B4F48F00930E01 /* CheckEmotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEmotion.swift; sourceTree = "<group>"; };
+		706C917825B4F4B800930E01 /* EmotionColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionColor.swift; sourceTree = "<group>"; };
+		706C917D25B4F4DA00930E01 /* EmotionEmoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionEmoji.swift; sourceTree = "<group>"; };
+		706C918525B4F56F00930E01 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		706C918A25B4F5BD00930E01 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		706C918F25B4F5DF00930E01 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		706C919425B4F60600930E01 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		706C919925B4F62B00930E01 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		706C919E25B4F66000930E01 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		706C91A425B4F6BD00930E01 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		706C91A525B4F6BD00930E01 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		706C91AB25B4F6ED00930E01 /* RecievedMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecievedMessageTableViewCell.swift; sourceTree = "<group>"; };
+		706C91AC25B4F6ED00930E01 /* RecievedMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecievedMessageTableViewCell.xib; sourceTree = "<group>"; };
+		706C91B225B4F73400930E01 /* ProfanityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfanityViewController.swift; sourceTree = "<group>"; };
+		706C91B725B4F75E00930E01 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A867AB1244EC334B39B4204A /* Pods_careChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_careChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8F76A8B5D56C0567A0F8B1 /* Pods-careChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careChat.debug.xcconfig"; path = "Target Support Files/Pods-careChat/Pods-careChat.debug.xcconfig"; sourceTree = "<group>"; };
 		C8E0C076D439777BE347715F /* Pods-careChat-careChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careChat-careChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-careChat-careChatUITests/Pods-careChat-careChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,10 +163,9 @@
 				706C90F725B4EF0400930E01 /* AppDelegate.swift */,
 				706C90F925B4EF0400930E01 /* SceneDelegate.swift */,
 				706C915925B4F2E600930E01 /* Model */,
-				706C90FB25B4EF0400930E01 /* ViewController.swift */,
-				706C90FD25B4EF0400930E01 /* Main.storyboard */,
+				706C91A325B4F68E00930E01 /* View */,
+				706C918425B4F54D00930E01 /* Controller */,
 				706C910025B4EF0900930E01 /* Assets.xcassets */,
-				706C910225B4EF0900930E01 /* LaunchScreen.storyboard */,
 				706C910525B4EF0900930E01 /* Info.plist */,
 				706C914925B4F11A00930E01 /* GoogleService-Info.plist */,
 				706C915425B4F2A500930E01 /* Emotion.mlmodel */,
@@ -160,8 +195,59 @@
 			isa = PBXGroup;
 			children = (
 				706C915A25B4F30300930E01 /* Message.swift */,
+				706C918325B4F50900930E01 /* Profanity Model */,
+				706C916925B4F44F00930E01 /* User.swift */,
+				706C916E25B4F46C00930E01 /* chatlist.swift */,
+				706C918225B4F4F400930E01 /* Emotion Functions */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		706C918225B4F4F400930E01 /* Emotion Functions */ = {
+			isa = PBXGroup;
+			children = (
+				706C917325B4F48F00930E01 /* CheckEmotion.swift */,
+				706C917825B4F4B800930E01 /* EmotionColor.swift */,
+				706C917D25B4F4DA00930E01 /* EmotionEmoji.swift */,
+			);
+			path = "Emotion Functions";
+			sourceTree = "<group>";
+		};
+		706C918325B4F50900930E01 /* Profanity Model */ = {
+			isa = PBXGroup;
+			children = (
+				706C915F25B4F40400930E01 /* ProfanityModel.swift */,
+				706C916425B4F42300930E01 /* ProfanityRequest.swift */,
+			);
+			path = "Profanity Model";
+			sourceTree = "<group>";
+		};
+		706C918425B4F54D00930E01 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				706C918525B4F56F00930E01 /* InitialViewController.swift */,
+				706C918A25B4F5BD00930E01 /* LogInViewController.swift */,
+				706C918F25B4F5DF00930E01 /* SignUpViewController.swift */,
+				706C919425B4F60600930E01 /* TabBarViewController.swift */,
+				706C919925B4F62B00930E01 /* ChatListViewController.swift */,
+				706C919E25B4F66000930E01 /* ChatViewController.swift */,
+				706C91B225B4F73400930E01 /* ProfanityViewController.swift */,
+				706C91B725B4F75E00930E01 /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		706C91A325B4F68E00930E01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				706C90FD25B4EF0400930E01 /* Main.storyboard */,
+				706C910225B4EF0900930E01 /* LaunchScreen.storyboard */,
+				706C91A425B4F6BD00930E01 /* MessageTableViewCell.swift */,
+				706C91A525B4F6BD00930E01 /* MessageTableViewCell.xib */,
+				706C91AB25B4F6ED00930E01 /* RecievedMessageTableViewCell.swift */,
+				706C91AC25B4F6ED00930E01 /* RecievedMessageTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		82D23B718D1723CE97106DBE /* Frameworks */ = {
@@ -305,7 +391,9 @@
 			files = (
 				706C910425B4EF0900930E01 /* LaunchScreen.storyboard in Resources */,
 				706C914A25B4F11A00930E01 /* GoogleService-Info.plist in Resources */,
+				706C91A725B4F6BD00930E01 /* MessageTableViewCell.xib in Resources */,
 				706C910125B4EF0900930E01 /* Assets.xcassets in Resources */,
+				706C91AE25B4F6ED00930E01 /* RecievedMessageTableViewCell.xib in Resources */,
 				706C90FF25B4EF0400930E01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,11 +556,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				706C90FC25B4EF0400930E01 /* ViewController.swift in Sources */,
+				706C919525B4F60600930E01 /* TabBarViewController.swift in Sources */,
+				706C918625B4F56F00930E01 /* InitialViewController.swift in Sources */,
 				706C90F825B4EF0400930E01 /* AppDelegate.swift in Sources */,
+				706C91AD25B4F6ED00930E01 /* RecievedMessageTableViewCell.swift in Sources */,
+				706C91A625B4F6BD00930E01 /* MessageTableViewCell.swift in Sources */,
+				706C91B825B4F75E00930E01 /* ProfileViewController.swift in Sources */,
 				706C915B25B4F30300930E01 /* Message.swift in Sources */,
+				706C916525B4F42300930E01 /* ProfanityRequest.swift in Sources */,
+				706C916A25B4F45000930E01 /* User.swift in Sources */,
+				706C917925B4F4B800930E01 /* EmotionColor.swift in Sources */,
 				706C915525B4F2A500930E01 /* Emotion.mlmodel in Sources */,
+				706C917425B4F48F00930E01 /* CheckEmotion.swift in Sources */,
+				706C919025B4F5DF00930E01 /* SignUpViewController.swift in Sources */,
+				706C917E25B4F4DA00930E01 /* EmotionEmoji.swift in Sources */,
+				706C919A25B4F62B00930E01 /* ChatListViewController.swift in Sources */,
+				706C918B25B4F5BD00930E01 /* LogInViewController.swift in Sources */,
+				706C916025B4F40400930E01 /* ProfanityModel.swift in Sources */,
 				706C90FA25B4EF0400930E01 /* SceneDelegate.swift in Sources */,
+				706C91B325B4F73400930E01 /* ProfanityViewController.swift in Sources */,
+				706C919F25B4F66000930E01 /* ChatViewController.swift in Sources */,
+				706C916F25B4F46C00930E01 /* chatlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

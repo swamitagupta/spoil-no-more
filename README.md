@@ -1,5 +1,5 @@
 
-<h1 align="center"> SafeChat </h1> 
+<h1 align="center"> Spoil No More! </h1> 
 <p align="center">
 
 <img alt="iOS" src="https://img.shields.io/badge/platform-iOS-blue">
@@ -34,11 +34,11 @@ Social media, and the conversations we have on them often affect our mental heal
 
 ## Introduction
 
-Safechat lets the users control their mental health themselves by letting them choose what conversations to enter based on their sentiments. It also prevents the spread of abusive language and can be a very essential app for kids as well as online education. It is aimed to make chatting harrassment-free and in accordance to your moods.
+'Spoil No More' lets the users control their mental health themselves by letting them choose what conversations to enter based on their sentiments. It also prevents the spread of abusive language and can be a very essential app for kids as well as online education. It is aimed to make chatting harrassment-free and in accordance to your moods.
 
 ## Features
 
-A few of the things you can do with ChatApp:
+A few of the things you can do with 'Spoil No More':
 
 * Make an account and chat with your friends
 * Detect profanity of your own phrases

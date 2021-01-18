@@ -2,7 +2,6 @@
 <h1 align="center"> SafeChat </h1> 
 <p align="center">
 
-<img alt="GitHub" src="https://img.shields.io/github/license/swamitagupta/safechat">
 <img alt="iOS" src="https://img.shields.io/badge/platform-iOS-blue">
  <img alt="Swift" src="https://img.shields.io/badge/Swift-5.0-brightgreen">
 <img alt="XCode" src="https://img.shields.io/badge/XCode-12-blueviolet">
@@ -35,7 +34,7 @@ Social media, and the conversations we have on them often affect our mental heal
 
 ## Introduction
 
-Safechat lets the users control their mental health themselves by letting them choose what conversations to enter based on their sentiments. It also prevents the spread of abusive language and can be a very essential app for kids too.
+Safechat lets the users control their mental health themselves by letting them choose what conversations to enter based on their sentiments. It also prevents the spread of abusive language and can be a very essential app for kids as well as online education. It is aimed to make chatting harrassment-free and in accordance to your moods.
 
 ## Features
 
@@ -66,6 +65,7 @@ A few of the things you can do with ChatApp:
 * Tap on the Chat to open it.
 * Type and press send to send your messages.
 * Observe the background changing in accordance to the sentiment of your recent chats. 
+* Tap the info button to learn more about the emotion-based color background.
 * Go back from the chat using the back button
 * To check the profanity and emotion of your text or any random phrase, do check our `detect` tab.
 * To check account details like mail id or log out, go to `profile` tab.
@@ -76,6 +76,7 @@ A few of the things you can do with ChatApp:
  * Firebase
  * CreateML
  * IQKeyBoardManager
+ * Prompt API - Bad Words Censor
  
 ## App Screenshots
 

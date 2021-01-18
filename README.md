@@ -20,7 +20,7 @@
 - [Features](#features)
 - [Steps to Run](#steps-to-run)
 - [How to Use](#how-to-use)
-- [Libraries Used](#libraries-used)
+- [Libraries, Packages and Technologies Used](#libraries-packages-and-technologies-used)
 - [App Screenshots](#app-screenshots)
 - [License](#license)
 - [Author](#author)
@@ -52,8 +52,8 @@ A few of the things you can do with 'Spoil No More':
 * Clone or download the app from this repository. 👩‍💻
  * Open project file in terminal. 💻
  * Run `pod intall` to install all dependencies. 📥
- * Install the swift package `IQKeyboardManager`.
- * Open the `safechat.workspace` file. 💾
+ * Install the swift package `IQKeyboardManager` in XCode from File -> Swift Packages.
+ * Open the `carechat.workspace` file. 💾
  * Change the bundle identifier. ⚙️
  * Press `Ctrl + R` to run the app. 📲
  
@@ -69,11 +69,9 @@ A few of the things you can do with 'Spoil No More':
 * Go back from the chat using the back button
 * To check the profanity and emotion of your text or any random phrase, do check our `detect` tab.
 * To check account details like mail id or log out, go to `profile` tab.
-
-* Text email: 1@2.com,
-* Test password: 123456
+* Test email: 1@2.com, password: 123456
  
-## Libraries, Packages and Technologies Used
+## Libraries Packages and Technologies Used
 
 * UIKit
  * Firebase

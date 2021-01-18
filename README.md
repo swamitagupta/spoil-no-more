@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://gitpoint.co/">
-    <img alt="SafeChat" title="SafeChat" src="http://i.imgur.com/VShxJHs.png" width="300">
-  </a>
-</p>
+
 <h1 align="center"> SafeChat </h1> 
 <p align="center">
 

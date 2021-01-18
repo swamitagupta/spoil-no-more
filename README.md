@@ -6,14 +6,14 @@
 <h1 align="center"> SafeChat </h1> 
 <p align="center">
 
-<img alt="GitHub" src="https://img.shields.io/github/license/swamitagupta/safechat">
 <img alt="iOS" src="https://img.shields.io/badge/platform-iOS-blue">
  <img alt="Swift" src="https://img.shields.io/badge/Swift-5.0-brightgreen">
 <img alt="XCode" src="https://img.shields.io/badge/XCode-12-blueviolet">
 <img alt="iOS" src="https://img.shields.io/badge/iOS-14-orange">
 <img alt="Pods" src="https://img.shields.io/badge/COCOAPODS-1.9.1-blue">
-<img alt="Swift Package" src="https://img.shields.io/badge/IQKeyboardManager-yellow">
 <img alt="Pods" src="https://img.shields.io/badge/Firebase-red">
+<img alt="Package" src="https://img.shields.io/badge/IQKeyboardManager-yellow">
+
 
 </p>
 
@@ -32,64 +32,56 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Motivation
+
+Social media, and the conversations we have on them often affect our mental health. They bother children and adults alike. Sometimes they might contain abusive and profane words and make us feel bad. Even if they are not profane, chats of a particular sentiment may affect us negatively at different times. Hence, after brainstorming to find solutions to this problem, we came up with our idea of this project. 
+
 ## Introduction
 
-
-View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
-
-## Motivation
+Safechat lets the users control their mental health themselves by letting them choose what conversations to enter based on their sentiments. It also prevents the spread of abusive language and can be a very essential app for kids too.
 
 ## Features
 
-A few of the things you can do with GitPoint:
+A few of the things you can do with ChatApp:
 
-* View user activity feed
-* Communicate on your issue and pull request conversations
-* Close or lock issues
-* Apply labels and assignees
-* Review and merge pull requests
-* Create new issues
-* Star, watch and fork repositories
-* Control your unread and participating notifications
-* Easily search for any user or repository
+* Make an account and chat with your friends
+* Detect profanity of your own phrases
+* Check the emotion of your phrases
+* Get to know the emotion of an ongoing chat without opening it
+* Avoid being affected by abusive words that our censored by us
+* Analyse the emotion of a chat you are present in through our customised emotion-colour backgrounds.
 
 ## Steps to Run
 
 * Clone or download the app from this repository. 👩‍💻
  * Open project file in terminal. 💻
  * Run `pod intall` to install all dependencies. 📥
- * Open the `WTFD.workspace` file. 💾
+ * Install the swift package `IQKeyboardManager`.
+ * Open the `safechat.workspace` file. 💾
  * Change the bundle identifier. ⚙️
  * Press `Ctrl + R` to run the app. 📲
- * Do star this repo and/or contribute if you like it.🙂
  
 ## How to Use
 
-* After the launchscreen, you will be taken to the TabBarController where you will have two options - search for recipes from a list of ingredients or search recipes(or check nutritional value) by dish name.
- * In the first tab add and deleting ingredients from the list (ingredients you have at home). 
- * Search for recipes by using the search button at the bottom of the view.
- * For the second tab enter the name of the dish.
- * Click on search recipe to look for recipes.
- * Click on check nutrition to check nutrition value. 
- * When searching for recipe, click on the recipe to check it out. 
- * Make your favourite recipes with the steps mentioned. 🍽
+* Create an account and Sign Up if you haven't already.
+* If you have an account, Sign In using your email and password.
+* Once you land on the chat list screen, tap the detail button to know to emotion of the current ongoing chat.
+* Tap on the Chat to open it.
+* Type and press send to send your messages.
+* Observe the background changing in accordance to the sentiment of your recent chats. 
+* Go back from the chat using the back button
+* To check the profanity and emotion of your text or any random phrase, do check our `detect` tab.
+* To check account details like mail id or log out, go to `profile` tab.
  
-## Libraries Used
+## Libraries, Packages and Technologies Used
 
 * UIKit
- * CoreData
- * Moya
- * SwiftyJSON
+ * Firebase
+ * CreateML
+ * IQKeyBoardManager
  
 ## App Screenshots
 
-<p align="center">
-  <img src = "http://i.imgur.com/IkSnFRL.png" width=700>
-</p>
-
-<p align="center">
-  <img src = "http://i.imgur.com/0iorG20.png" width=700>
-</p>
 
 ## License
 
@@ -101,4 +93,4 @@ Please read the [LICENSE](../master/LICENSE) file for details.
 
 ## Acknowledgments
 
-Thanks to [JetBrains](https://www.jetbrains.com) for supporting us with a [free Open Source License](https://www.jetbrains.com/buy/opensource).
+The dataset used to create model through createML is [Emotion Detection for NLP](https://www.kaggle.com/praveengovi/emotions-dataset-for-nlp).

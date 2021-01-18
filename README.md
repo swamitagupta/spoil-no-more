@@ -69,6 +69,9 @@ A few of the things you can do with 'Spoil No More':
 * Go back from the chat using the back button
 * To check the profanity and emotion of your text or any random phrase, do check our `detect` tab.
 * To check account details like mail id or log out, go to `profile` tab.
+
+* Text email: 1@2.com,
+* Test password: 123456
  
 ## Libraries, Packages and Technologies Used
 

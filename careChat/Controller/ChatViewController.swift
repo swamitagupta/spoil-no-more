@@ -83,8 +83,7 @@ class ChatViewController: UIViewController {
             gradient.removeFromSuperlayer()
         }
         
-        //print("Color: \(color.accessibilityName)")
-        gradient.colors = [UIColor.white.cgColor, color.cgColor]
+        gradient.colors = [UIColor.systemBackground.cgColor, color.cgColor]
         gradient.locations = [0.3 , 1.0]
         gradient.startPoint = CGPoint(x: 1.0, y: 0.0)
         gradient.endPoint = CGPoint(x: 1.0, y: 1.0)
@@ -193,7 +192,7 @@ extension ChatViewController: UITableViewDataSource {
             if message.profane == true{
                 cell.messageBubble.backgroundColor = UIColor.red
             } else {
-                cell.messageBubble.backgroundColor = UIColor(named: "AppDarkBlue")
+                cell.messageBubble.backgroundColor = UIColor.systemBlue
             }
             return cell
             
@@ -205,7 +204,7 @@ extension ChatViewController: UITableViewDataSource {
             if message.profane == true{
                 cell.messageBubble.backgroundColor = UIColor.red
             } else {
-                cell.messageBubble.backgroundColor = UIColor(named: "App Blue")
+                cell.messageBubble.backgroundColor = UIColor.systemGray
             }
             return cell
         }

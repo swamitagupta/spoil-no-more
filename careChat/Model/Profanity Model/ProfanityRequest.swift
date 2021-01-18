@@ -11,7 +11,7 @@ import Foundation
 
 func detectProfanity(text: String) -> ProfanityModel {
     var semaphore = DispatchSemaphore (value: 0)
-    let parameters = text //"{body}"
+    let parameters = text 
     let postData = parameters.data(using: .utf8)
     let apikey = "6OA3R6KY8pETmPa6ftd1pMU2EHRAmRdt"
     var model = ProfanityModel(bad_words_total: 0, content: "", censored_content: "")

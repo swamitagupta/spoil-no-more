@@ -39,6 +39,7 @@
 		706C91AE25B4F6ED00930E01 /* RecievedMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706C91AC25B4F6ED00930E01 /* RecievedMessageTableViewCell.xib */; };
 		706C91B325B4F73400930E01 /* ProfanityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C91B225B4F73400930E01 /* ProfanityViewController.swift */; };
 		706C91B825B4F75E00930E01 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C91B725B4F75E00930E01 /* ProfileViewController.swift */; };
+		706C91C325B572C700930E01 /* Our Santa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 706C91C225B572C000930E01 /* Our Santa.ttf */; };
 		9F948AB2722B96C7D92C4039 /* Pods_careChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A867AB1244EC334B39B4204A /* Pods_careChatTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,7 @@
 		706C91AC25B4F6ED00930E01 /* RecievedMessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecievedMessageTableViewCell.xib; sourceTree = "<group>"; };
 		706C91B225B4F73400930E01 /* ProfanityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfanityViewController.swift; sourceTree = "<group>"; };
 		706C91B725B4F75E00930E01 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		706C91C225B572C000930E01 /* Our Santa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Our Santa.ttf"; sourceTree = "<group>"; };
 		A867AB1244EC334B39B4204A /* Pods_careChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_careChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8F76A8B5D56C0567A0F8B1 /* Pods-careChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careChat.debug.xcconfig"; path = "Target Support Files/Pods-careChat/Pods-careChat.debug.xcconfig"; sourceTree = "<group>"; };
 		C8E0C076D439777BE347715F /* Pods-careChat-careChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-careChat-careChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-careChat-careChatUITests/Pods-careChat-careChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				706C910525B4EF0900930E01 /* Info.plist */,
 				706C914925B4F11A00930E01 /* GoogleService-Info.plist */,
 				706C915425B4F2A500930E01 /* Emotion.mlmodel */,
+				706C91C225B572C000930E01 /* Our Santa.ttf */,
 			);
 			path = careChat;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 			files = (
 				706C910425B4EF0900930E01 /* LaunchScreen.storyboard in Resources */,
 				706C914A25B4F11A00930E01 /* GoogleService-Info.plist in Resources */,
+				706C91C325B572C700930E01 /* Our Santa.ttf in Resources */,
 				706C91A725B4F6BD00930E01 /* MessageTableViewCell.xib in Resources */,
 				706C910125B4EF0900930E01 /* Assets.xcassets in Resources */,
 				706C91AE25B4F6ED00930E01 /* RecievedMessageTableViewCell.xib in Resources */,

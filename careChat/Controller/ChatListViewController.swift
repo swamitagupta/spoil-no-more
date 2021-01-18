@@ -78,6 +78,7 @@ extension chatListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier")!
         cell.textLabel?.text = chats[indexPath.row].title
+        cell.textLabel?.textColor = UIColor.white
         cell.imageView?.image = chats[indexPath.row].image
         cell.accessoryType = UITableViewCell.AccessoryType.detailButton
         return cell

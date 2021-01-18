@@ -6,6 +6,7 @@
 <h1 align="center"> SafeChat </h1> 
 <p align="center">
 
+<img alt="GitHub" src="https://img.shields.io/github/license/swamitagupta/safechat">
 <img alt="iOS" src="https://img.shields.io/badge/platform-iOS-blue">
  <img alt="Swift" src="https://img.shields.io/badge/Swift-5.0-brightgreen">
 <img alt="XCode" src="https://img.shields.io/badge/XCode-12-blueviolet">
@@ -85,7 +86,7 @@ A few of the things you can do with ChatApp:
 
 ## License
 
-Please read the [LICENSE](../master/LICENSE) file for details.
+Please read the [LICENSE](../main/LICENSE) file for details.
 
 ## Author
 

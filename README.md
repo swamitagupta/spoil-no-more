@@ -1,25 +1,25 @@
 <p align="center">
   <a href="https://gitpoint.co/">
-    <img alt="GitPoint" title="GitPoint" src="http://i.imgur.com/VShxJHs.png" width="300">
+    <img alt="SafeChat" title="SafeChat" src="http://i.imgur.com/VShxJHs.png" width="300">
   </a>
 </p>
-<h1 align="center"> Title </h1> 
+<h1 align="center"> SafeChat </h1> 
 <p align="center">
 
-<img alt="Build" src="https://img.shields.io/travis/gitpoint/git-point">
-<img alt="GitHub" src="https://img.shields.io/github/license/garima94921/WTFD">
+<img alt="GitHub" src="https://img.shields.io/github/license/swamitagupta/safechat">
 <img alt="iOS" src="https://img.shields.io/badge/platform-iOS-blue">
  <img alt="Swift" src="https://img.shields.io/badge/Swift-5.0-brightgreen">
-<img alt="XCode" src="https://img.shields.io/badge/XCode-11.5-blueviolet">
-<img alt="iOS" src="https://img.shields.io/badge/iOS-13-orange">
+<img alt="XCode" src="https://img.shields.io/badge/XCode-12-blueviolet">
+<img alt="iOS" src="https://img.shields.io/badge/iOS-14-orange">
 <img alt="Pods" src="https://img.shields.io/badge/COCOAPODS-1.9.1-blue">
-<img alt="SwiftyJSON" src="https://img.shields.io/badge/SwiftyJSON-5.0.0-yellow">
-<img alt="Moya" src="https://img.shields.io/badge/Moya-14.0.0-red">
+<img alt="Swift Package" src="https://img.shields.io/badge/IQKeyboardManager-yellow">
+<img alt="Pods" src="https://img.shields.io/badge/Firebase-red">
 
 </p>
 
 ## Table of Contents
 
+- [Motivation](#motivation)
 - [Introduction](#introduction)
 - [Features](#features)
 - [Steps to Run](#steps-to-run)
@@ -36,6 +36,8 @@
 
 
 View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
+
+## Motivation
 
 ## Features
 

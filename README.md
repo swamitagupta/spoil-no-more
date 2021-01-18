@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="Images/logo.png" alt="Logo" height="200"/>
+</p>
 <h1 align="center"> Spoil No More! </h1> 
 <p align="center">
 

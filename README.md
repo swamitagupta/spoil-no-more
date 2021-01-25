@@ -2,6 +2,7 @@
   <img src="Images/logo.png" alt="Logo" height="200"/>
 </p>
 <h1 align="center"> Spoil No More! </h1> 
+
 <p align="center">
 
 <img alt="iOS" src="https://img.shields.io/badge/platform-iOS-blue">
@@ -14,9 +15,11 @@
 
 
 </p>
+ 
 
 ## Table of Contents
 
+- [Demo Video](https://vimeo.com/501715874)
 - [Motivation](#motivation)
 - [Introduction](#introduction)
 - [Features](#features)
@@ -27,6 +30,7 @@
 - [License](#license)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
